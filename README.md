@@ -29,10 +29,16 @@ This project is a simple Java application that allows users to read from existin
 
 ## Directory Structure
 simple-file-reader-writer/
-├── Main.java # Entry point of the application.
-├── Reader.java # Handles reading from files.
-├── Writer.java # Handles writing to and deleting files.
-└── txtFiles/ # Directory where text files are stored.
+├── src/                     # Source files for the project
+│   ├── Main.java            # Entry point of the application
+│   ├── Reader.java          # Handles reading from files
+│   └── Writer.java          # Handles writing to and deleting files
+├── txtFiles/                # Directory where text files are stored
+│   ├── example1.txt         # Example text file 1
+│   └── example2.txt         # Example text file 2
+├── README.md                # Documentation for the project
+└── LICENSE                  # License information for the project
+
 
 
 ## Contributing
